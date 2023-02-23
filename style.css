@@ -12,11 +12,12 @@ body{
     height: 100vh;
 }
 h1{
-    color: cadetblue;
+    color: #00897B;
+    margin: 20px;
 }
 .container{
     position: relative;
-    width: 640px;
+    max-width: 50%;
     background-color: aquamarine;
     display: flex;
     padding: 10px;
@@ -29,12 +30,16 @@ h1{
     position: relative;
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid #00897B;
     margin: 10px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan;
 }
 .container .box.hovered{
-    border: 2px dashed black;
+    border: 2px dashed #00897B;
 }
 .container .box .image{
     width: 100%;
@@ -43,4 +48,5 @@ h1{
     background-size: cover;
     overflow: hidden;
     border-radius: 18px;
+    position: absolute;
 }
